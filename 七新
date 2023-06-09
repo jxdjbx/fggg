@@ -1,0 +1,147 @@
+local OpenUI = Instance.new("ScreenGui")
+
+local ImageButton = Instance.new("ImageButton")
+
+local UICorner = Instance.new("UICorner")
+
+OpenUI.Name = "OpenUI"
+
+OpenUI.Parent = game.CoreGui
+
+OpenUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ImageButton.Parent = OpenUI
+
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+ImageButton.BackgroundTransparency = 0.500
+
+ImageButton.Position = UDim2.new(0.0235790554, 0, 0.466334164, 0)
+
+ImageButton.Size = UDim2.new(0.034, 0,0.067, 0)
+
+ImageButton.Image = "rbxassetid://13429676701"
+
+ImageButton.Draggable = true
+
+UICorner.CornerRadius = UDim.new(0, 200)
+
+UICorner.Parent = ImageButton
+
+ImageButton.MouseButton1Click:Connect(function()
+
+if game.CoreGui:FindFirstChild("Darkrai").Enabled == true then
+
+game.CoreGui:FindFirstChild("Darkrai").Enabled = false
+
+else
+
+game.CoreGui:FindFirstChild("Darkrai").Enabled = true
+
+end
+
+end)local lib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/Vape.txt")()
+
+local win = lib:Window("七❤脚本",Color3.fromRGB(44, 120, 224), Enum.KeyCode.RightControl)local about = win:Tab("关于脚本")
+
+about:Label("作者：七吁")
+
+about:Label("QQ2909431794")
+
+about:Label("群号：170048648")
+
+about:Label("贩卖你给我死！！！！")
+
+local about = win:Tab("由自己研究")
+
+about:Label("免费脚本")local hight = win:Tab("基础功能")
+
+hight:Button("飞行", function()
+
+loadstring(game:HttpGet('https://pastebin.com/raw/28CWNSrK'))();
+
+end)
+
+hight:Button("阿尔宙斯飞行", function()
+
+loadstring(game:HttpGet('https://pastebin.com/raw/jQTcRnqz'))();
+
+end)
+
+hight:Button("传送工具", function()
+
+mouse = game.Players.LocalPlayer:GetMouse() tool = Instance.new("Tool") tool.RequiresHandle = false tool.Name = "作者:2909431794" tool.Activated:connect(function() local pos = mouse.Hit+Vector3.new(0,2.5,0) pos = CFrame.new(pos.X,pos.Y,pos.Z) game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos end) tool.Parent = game.Players.LocalPlayer.Backpack
+
+end)
+
+hight:Button("设置生命(0~100)", function()
+
+game.Players.LocalPlayer.Character.Humanoid.Health=Value
+
+end)
+
+local hight = win:Tab("其他")
+
+hight:Button("餐厅大亨", function()
+
+	loadstring(game:httpget("https://raw.githubusercontent.com/LabibKazi858/Scripts/main/Restaurant%20Tycoon%202", true))()end)
+
+hight:Button("蜂群", function()
+
+loadstring(game:HttpGet("https://rahttps://rahttps://raw.githubusercontent.com/USA868/USA--/main/.github/%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B/1%E6%9D%96%E4%BA%BA%E4%BD%BF%E7%94%A8?token=GHSAT0AAAAAACB6LLQWA5JNQNNWTP47AOWSZCLYRTQ"))()
+
+end)
+
+hight:Button("幸运战场", function()
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/zeuise0002/SSSWWW222/main/README.md'),true))()
+
+end)
+
+hight:Button("饥饿艺术家", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperRegex/RobloxScripts/main/DrawingScript.lua"))()
+
+end)
+
+hight:Button("伐木大亨", function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Butterisgood/butter-hub/main/Butterhub.txt'))()
+
+end)
+
+hight:Button("超级牛逼的", function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/raw-scriptpastebin/raw/main/B_Genesis'))()
+
+end)
+
+hight:Button("彩虹朋友Ⅴ3", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/Rainbow-Friends/main/Rainbow%20Friends"))()
+
+end)
+
+hight:Button("伐木，不知道能不能用", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/LuaWareLoader.lw/main/luawareloader.wtf",true))()
+
+end)
+
+hight:Button("evade", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Evade/main.lua"))()
+
+end)
+
+hight:Button("兵工厂", function()
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init'), true))()
+
+end)
+
+hight:Button("巴掌模拟器", function()
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Unknownkellymc1/Unknownscripts/main/slap-battles')))()
+
+end)loadstring(game:HttpGet("https://pastebin.com/raw/xNuuKrwB"))()
